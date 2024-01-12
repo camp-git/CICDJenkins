@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'master' }
+    agent { label 'any' }
    
 	environment {
 		registry = "kss7/dotnetapp"
